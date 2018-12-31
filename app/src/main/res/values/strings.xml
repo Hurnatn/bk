@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">BuscaminasKotlin</string>
+    <string name="empezar_partida">Empezar partida</string>
+    <string name="puntuacion">Puntuacion</string>
+</resources>
