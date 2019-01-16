@@ -11,7 +11,7 @@
                       android:gradientRadius="85dp"
                       android:startColor="#bab6dc"
                       android:centerColor="@color/primaryDarkColor"
-                      android:endColor="@color/primaryDarkColor"
+                      android:endColor="@color/secondaryTextColor"
                       android:width="10dp"
 
                       android:thickness="90dp"

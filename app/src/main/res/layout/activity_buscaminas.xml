@@ -15,104 +15,102 @@
             app:layout_constraintTop_toBottomOf="@+id/linearLayout"
             app:layout_constraintVertical_bias="0.0" app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            android:id="@+id/TableLayout">
+            android:id="@+id/TableLayout" app:layout_constraintHorizontal_bias="0.0">
 
         <TableRow android:layout_width="match_parent" android:layout_height="match_parent"
                   style="?android:attr/buttonBarStyle"
+                  android:id="@+id/rowOne"
                   android:gravity="top" android:layout_gravity="top">
 
-            <Button
-                    android:text="1"
+            <!--<Button-->
+                    <!--android:text="1"-->
 
-                    android:padding="0dp"
-                    android:layout_margin="0dp"
-                    style="?android:attr/buttonBarButtonStyle"
-                    android:background="@drawable/celda_una_mina"
-                    android:textColor="@color/secondaryTextColor"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent" tools:layout_editor_absoluteY="68dp"
-                    tools:layout_editor_absoluteX="8dp" android:id="@+id/button" android:elevation="0dp"/>
-            <Button
-                    android:padding="0dp"
-                    android:layout_margin="0dp"
-                    style="?android:attr/buttonBarButtonStyle"
-                    android:background="@drawable/celda_sin_presionar"
-                    android:textColor="@color/primaryTextColor"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent" tools:layout_editor_absoluteY="68dp"
-                    tools:layout_editor_absoluteX="8dp" android:id="@+id/button2" android:elevation="0dp"/>
-            <Button
-                    android:text="2"
-                    android:padding="0dp"
-                    android:layout_margin="0dp"
-                    style="?android:attr/buttonBarButtonStyle"
-                    android:background="@drawable/celda_dos_mina"
-                    android:textColor="@color/secondaryTextColor"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent" tools:layout_editor_absoluteY="68dp"
-                    tools:layout_editor_absoluteX="8dp" android:id="@+id/button3" android:elevation="0dp"/>
-            <Button
-                    android:text="3"
-                    style="?android:attr/buttonBarButtonStyle"
-                    android:background="@drawable/celda_tres_mina"
-                    android:textColor="@color/secondaryTextColor"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent" tools:layout_editor_absoluteY="68dp"
-                    tools:layout_editor_absoluteX="8dp" android:id="@+id/button4" android:elevation="0dp"/>
-            <Button
-                    android:text="4"
-                    style="?android:attr/buttonBarButtonStyle"
-                    android:background="@drawable/celda_cuatro_mina"
-                    android:textColor="@color/primaryTextColor"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent" tools:layout_editor_absoluteY="68dp"
-                    tools:layout_editor_absoluteX="8dp" android:id="@+id/button5" android:elevation="0dp"/>
-            <Button
-                    android:text="5"
-                    style="?android:attr/buttonBarButtonStyle"
-                    android:background="@drawable/celda_cinco_mina"
-                    android:textColor="@color/secondaryTextColor"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent" tools:layout_editor_absoluteY="68dp"
-                    tools:layout_editor_absoluteX="8dp" android:id="@+id/button6" android:elevation="0dp"/>
-            <Button
-                    style="?android:attr/buttonBarButtonStyle"
-                    android:background="@drawable/celda_cero_mina"
-                    android:textColor="@color/secondaryTextColor"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent" tools:layout_editor_absoluteY="68dp"
-                    tools:layout_editor_absoluteX="8dp" android:id="@+id/button7" android:elevation="0dp"/>
-            <Button
-                    android:text="1"
-                    style="?android:attr/buttonBarButtonStyle"
-                    android:background="@drawable/celda_una_mina"
-                    android:textColor="@color/secondaryTextColor"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent" tools:layout_editor_absoluteY="68dp"
-                    tools:layout_editor_absoluteX="8dp" android:id="@+id/button8" android:elevation="0dp"/>
-            <Button
-                    android:text="1"
-                    style="?android:attr/buttonBarButtonStyle"
-                    android:background="@drawable/celda_una_mina"
-                    android:textColor="@color/secondaryTextColor"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent" tools:layout_editor_absoluteY="68dp"
-                    tools:layout_editor_absoluteX="8dp" android:id="@+id/button9" android:elevation="0dp"/>
-            <Button
-                    android:text="1"
-                    android:layout_marginRight="3dp"
-                    style="?android:attr/buttonBarButtonStyle"
-                    android:background="@drawable/celda_una_mina"
-                    android:textColor="@color/secondaryTextColor"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent" tools:layout_editor_absoluteY="68dp"
-                    tools:layout_editor_absoluteX="8dp" android:id="@+id/button10" android:elevation="0dp"/>
+                    <!--android:padding="0dp"-->
+                    <!--android:layout_margin="0dp"-->
+                    <!--style="?android:attr/buttonBarButtonStyle"-->
+                    <!--android:background="@drawable/celda_una_mina"-->
+                    <!--android:textColor="@color/secondaryTextColor"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="match_parent" tools:layout_editor_absoluteY="68dp"-->
+                    <!--tools:layout_editor_absoluteX="8dp" android:id="@+id/button" android:elevation="0dp"/>-->
+            <!--<Button-->
+                    <!--android:padding="0dp"-->
+                    <!--android:layout_margin="0dp"-->
+                    <!--style="?android:attr/buttonBarButtonStyle"-->
+                    <!--android:background="@drawable/celda_sin_presionar"-->
+                    <!--android:textColor="@color/primaryTextColor"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="match_parent" tools:layout_editor_absoluteY="68dp"-->
+                    <!--tools:layout_editor_absoluteX="8dp" android:id="@+id/button2" android:elevation="0dp"/>-->
+            <!--<Button-->
+                    <!--android:text="2"-->
+                    <!--android:padding="0dp"-->
+                    <!--android:layout_margin="0dp"-->
+                    <!--style="?android:attr/buttonBarButtonStyle"-->
+                    <!--android:background="@drawable/celda_dos_mina"-->
+                    <!--android:textColor="@color/secondaryTextColor"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="match_parent" tools:layout_editor_absoluteY="68dp"-->
+                    <!--tools:layout_editor_absoluteX="8dp" android:id="@+id/button3" android:elevation="0dp"/>-->
+            <!--<Button-->
+                    <!--android:text="3"-->
+                    <!--style="?android:attr/buttonBarButtonStyle"-->
+                    <!--android:background="@drawable/celda_tres_mina"-->
+                    <!--android:textColor="@color/secondaryTextColor"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="match_parent" tools:layout_editor_absoluteY="68dp"-->
+                    <!--tools:layout_editor_absoluteX="8dp" android:id="@+id/button4" android:elevation="0dp"/>-->
+            <!--<Button-->
+                    <!--android:text="4"-->
+                    <!--style="?android:attr/buttonBarButtonStyle"-->
+                    <!--android:background="@drawable/celda_cuatro_mina"-->
+                    <!--android:textColor="@color/primaryTextColor"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="match_parent" tools:layout_editor_absoluteY="68dp"-->
+                    <!--tools:layout_editor_absoluteX="8dp" android:id="@+id/button5" android:elevation="0dp"/>-->
+            <!--<Button-->
+                    <!--android:text="5"-->
+                    <!--style="?android:attr/buttonBarButtonStyle"-->
+                    <!--android:background="@drawable/celda_cinco_mina"-->
+                    <!--android:textColor="@color/secondaryTextColor"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="match_parent" tools:layout_editor_absoluteY="68dp"-->
+                    <!--tools:layout_editor_absoluteX="8dp" android:id="@+id/button6" android:elevation="0dp"/>-->
+            <!--<Button-->
+                    <!--style="?android:attr/buttonBarButtonStyle"-->
+                    <!--android:background="@drawable/celda_cero_mina"-->
+                    <!--android:textColor="@color/secondaryTextColor"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="match_parent" tools:layout_editor_absoluteY="68dp"-->
+                    <!--tools:layout_editor_absoluteX="8dp" android:id="@+id/button7" android:elevation="0dp"/>-->
+            <!--<Button-->
+                    <!--android:text="1"-->
+                    <!--style="?android:attr/buttonBarButtonStyle"-->
+                    <!--android:background="@drawable/celda_una_mina"-->
+                    <!--android:textColor="@color/secondaryTextColor"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="match_parent" tools:layout_editor_absoluteY="68dp"-->
+                    <!--tools:layout_editor_absoluteX="8dp" android:id="@+id/button8" android:elevation="0dp"/>-->
+            <!--<Button-->
+                    <!--android:text="1"-->
+                    <!--style="?android:attr/buttonBarButtonStyle"-->
+                    <!--android:background="@drawable/celda_una_mina"-->
+                    <!--android:textColor="@color/secondaryTextColor"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="match_parent" tools:layout_editor_absoluteY="68dp"-->
+                    <!--tools:layout_editor_absoluteX="8dp" android:id="@+id/button9" android:elevation="0dp"/>-->
+            <!--<Button-->
+                    <!--android:text="1"-->
+                    <!--android:layout_marginRight="3dp"-->
+                    <!--style="?android:attr/buttonBarButtonStyle"-->
+                    <!--android:background="@drawable/celda_una_mina"-->
+                    <!--android:textColor="@color/secondaryTextColor"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="match_parent" tools:layout_editor_absoluteY="68dp"-->
+                    <!--tools:layout_editor_absoluteX="8dp" android:id="@+id/button10" android:elevation="0dp"/>-->
 
 
         </TableRow>
-        <TableRow android:layout_width="match_parent" android:layout_height="match_parent"/>
-        <TableRow android:layout_width="match_parent" android:layout_height="match_parent"/>
-        <TableRow android:layout_width="match_parent" android:layout_height="match_parent"/>
     </TableLayout>
     <android.support.constraint.ConstraintLayout
             android:orientation="vertical"

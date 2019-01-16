@@ -27,7 +27,7 @@ class BuscaminasActivity : AppCompatActivity(), BuscaminasView {
     }
 
     override fun crearTabla(list: List<View>) {
-        list.forEach { linearLayout.addView(it) }
+        list.forEach { TableLayout.addView(it) }
     }
 
     override fun showIndeterminateProgress() {
